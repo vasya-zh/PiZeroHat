@@ -1,9 +1,8 @@
 # PiZeroHat
 
+KiCad component and example project for creating Raspberry Pi Zero Shields/Hats with USB and power lines directly (nor with extra cables), with a help of pogo pins (spring contacts).
 ![Screenshot PiZeroHat_02](assets/PiZeroHat_02.jpg)
 ![Screenshot PiZeroHat_03](assets/PiZeroHat_03.jpg)
-KiCad component and example project for creating Raspberry Pi Zero Shields/Hats with USB and power lines directly (nor with extra cables), with a help of pogo pins (spring contacts).
-
 You can use it for creating Pi Zero based devices with onboard USB peripherals and/or advanced power circuits. For example USB-hubs and Ethernet drivers or other USB peripherals.
 
 Library includes schematic symbols with D+, D- USB lines and +5V_USB and GND lines to power Raspberry Pi Zero properly, and a footprint with 2x20 RPi connector, pogo-pin's points and 2.75mm fixture holes for M2.5 stand-offs.
@@ -18,8 +17,8 @@ Pogo pins will work with:
 - Raspberry Pi Zero W (see note below)
 - Raspberry Pi Zero 2W (see note below)
 
-[!NOTE]
-PiZeroHat will work with Zero W and Zero 2W only if ferrite ring installed on D+ and D- pogo pins because of high WiFi radiation which affects on USB data transmission.
+> [!NOTE]
+> PiZeroHat will work with Zero W and Zero 2W only if ferrite ring installed on D+ and D- pogo pins because of high WiFi radiation which affects on USB data transmission.
 
 ## BOM:
 - 4pcs CPG-01-TH-B - pogo pins for USB and power connections from CUI
