@@ -22,11 +22,11 @@ Pogo pins will work with:
 > PiZeroHat will work with Zero W and Zero 2W only if the ferrite ring is installed on D+ and D- pogo pins because of high WiFi radiation which affects on USB data transmission.
 
 ## BOM:
-- 4pcs CPG-01-TH-B - spring contacts or pogo pins for USB and power connections from CUI
-- 4pcs 970100155 - 10mm M2.5 F-F Nylon stand-off from Wurth
-- 8pcs 29331 - M2.5x6mm nylon screws from Keystone
-- 1pc 742701712 - ф9*/ф5mm*/H8mm ferrite ring - install on D+/D- pogo pins
-- 1pcs 2822 - 2x20-pin Strip Dual Male Header from Adafruit
-- 1pcs 2243 -  2x20 Short Female Header from Adafruit
+- 4pcs [CPG-01-TH-B](https://eu.mouser.com/ProductDetail/179-CPG-01-TH-B) - spring contacts or pogo pins for USB and power connections from CUI
+- 4pcs [970100155](https://eu.mouser.com/ProductDetail/710-970100155) - 10mm M2.5 F-F Nylon stand-off from Wurth
+- 8pcs [29331](https://eu.mouser.com/ProductDetail/534-29331) - M2.5x6mm nylon screws from Keystone
+- 1pc [742701712](https://eu.mouser.com/ProductDetail/710-742701712) - ф9*/ф5mm*/H8mm ferrite ring - install on D+/D- pogo pins
+- 1pcs [2822](https://eu.mouser.com/ProductDetail/485-2822) - 2x20-pin Strip Dual Male Header from Adafruit
+- 1pcs [2243](https://eu.mouser.com/ProductDetail/485-2243) -  2x20 Short Female Header from Adafruit
 
 You can use alternatives with the same dimensions from any manufacturer.
