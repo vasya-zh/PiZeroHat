@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Raspberry_Pi_Zero_v.1.3_Hat")(type "KiCad")(uri "${KIPRJMOD}/lib/Raspberry_Pi_Zero_v.1.3_Hat.kicad_sym")(options "")(descr ""))
+)

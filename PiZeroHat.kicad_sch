@@ -1,0 +1,1073 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "70cca7f8-352d-48c5-8694-1c5fafafbd4a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Raspberry_Pi_Zero_v.1.3_Hat:Raspberry_Pi_Zero_v.1.3_Hat"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at 3.048 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Raspberry Pi Zero v1.3"
+				(at 13.462 -60.198 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Raspberry_Pi_Zero_v.1.3_Hat:RASPI_ZERO_FULL"
+				(at 24.638 -62.992 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://pinout.xyz/"
+				(at 11.938 -68.072 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Raspberry Pi Zero v1.3"
+				(at 13.462 -65.532 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Raspberry_Pi_Zero_v.1.3_Hat_1_1"
+				(polyline
+					(pts
+						(xy 2.54 -50.8) (xy 26.67 -50.8)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 2.54)
+					(end 26.67 -58.42)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -10.16 180)
+					(length 2.54)
+					(name "GP15/RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "GP17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -12.7 180)
+					(length 2.54)
+					(name "GP18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "GP27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -15.24 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "GP22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -17.78 180)
+					(length 2.54)
+					(name "GP23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -20.32 0)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -20.32 180)
+					(length 2.54)
+					(name "GP24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 0)
+					(length 2.54)
+					(name "GP10/MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 0 180)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -22.86 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -25.4 0)
+					(length 2.54)
+					(name "GP9/MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -25.4 180)
+					(length 2.54)
+					(name "GP25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -27.94 0)
+					(length 2.54)
+					(name "GP11/SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -27.94 180)
+					(length 2.54)
+					(name "GP8/CS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -30.48 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -30.48 180)
+					(length 2.54)
+					(name "GP7/CS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -33.02 0)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -33.02 180)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -35.56 0)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "GP2/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -35.56 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -38.1 0)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -38.1 180)
+					(length 2.54)
+					(name "GP12/PWM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -40.64 0)
+					(length 2.54)
+					(name "GP13/PWM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -40.64 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -43.18 0)
+					(length 2.54)
+					(name "GP19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -43.18 180)
+					(length 2.54)
+					(name "GP16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -45.72 0)
+					(length 2.54)
+					(name "GP26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -45.72 180)
+					(length 2.54)
+					(name "GP20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -48.26 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -2.54 180)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -48.26 180)
+					(length 2.54)
+					(name "GP21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "GP3/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -7.62 180)
+					(length 2.54)
+					(name "GP14/TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -53.34 0)
+					(length 2.54)
+					(name "+5V_USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -53.34 180)
+					(length 2.54)
+					(name "USB_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PP22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 29.21 -55.88 180)
+					(length 2.54)
+					(name "USB_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PP23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -55.88 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry_Pi_Zero_v.1.3_Hat:Raspberry_Pi_Zero_v.1.3_Hat")
+		(at 130.81 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c927f5a8-4dbf-4b27-a14e-e192807163db")
+		(property "Reference" "A1"
+			(at 145.415 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Raspberry Pi Zero v1.3"
+			(at 145.415 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Raspberry_Pi_Zero_v.1.3_Hat:RASPI_ZERO_FULL"
+			(at 155.448 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pinout.xyz/"
+			(at 142.748 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Raspberry Pi Zero v1.3"
+			(at 144.272 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "666b08f2-139c-4654-97a1-eb2566c02d74")
+		)
+		(pin "37"
+			(uuid "d1276747-13d4-4c2e-b00e-0d5b733cf5c5")
+		)
+		(pin "15"
+			(uuid "6cfae01c-e7b2-4353-a98a-513fbba2bceb")
+		)
+		(pin "3"
+			(uuid "6dbd5c4f-2ff3-4fd9-aaa5-1c51161cf54e")
+		)
+		(pin "7"
+			(uuid "701e6abf-8b70-42f8-8f27-6ed8127fb980")
+		)
+		(pin "29"
+			(uuid "e5ee4968-1d35-4145-ba97-d7c51c362a3c")
+		)
+		(pin "16"
+			(uuid "b9af6e2b-2151-4a8b-ba06-7e87eb9d1f46")
+		)
+		(pin "20"
+			(uuid "cdd3edb5-62f4-49ab-8bfb-8dc4c9e480d8")
+		)
+		(pin "13"
+			(uuid "ebb3ed2c-23f1-40fe-9e89-4f90eb4c0981")
+		)
+		(pin "17"
+			(uuid "65a0e6c0-6eb7-41ee-be56-e3fec3486a65")
+		)
+		(pin "19"
+			(uuid "8d144f82-db88-42aa-a8c2-b30e86789313")
+		)
+		(pin "30"
+			(uuid "cd1a0b61-bdcf-4b9d-88da-a09cace8a891")
+		)
+		(pin "34"
+			(uuid "6a6fff6e-9373-4202-b3de-fd399a1b34b8")
+		)
+		(pin "24"
+			(uuid "a458ef39-7fad-4650-994e-cb556e3d8fe7")
+		)
+		(pin "21"
+			(uuid "eed30876-dfee-4e35-8ffa-b26bbdcd7e26")
+		)
+		(pin "28"
+			(uuid "67664f06-0879-4551-8986-25178f4befe1")
+		)
+		(pin "35"
+			(uuid "dad9fe20-1e1b-4e2c-9618-9aab09448fc5")
+		)
+		(pin "36"
+			(uuid "5149a625-dc64-4a14-aab8-9f98b229a7c2")
+		)
+		(pin "39"
+			(uuid "ca113c6a-61b0-4a49-b5ed-3cbd7557d4b9")
+		)
+		(pin "31"
+			(uuid "491c977c-900b-4571-8673-20bf9375c399")
+		)
+		(pin "6"
+			(uuid "e9e85f3b-c804-48e6-bff5-08ebcb0a19bb")
+		)
+		(pin "9"
+			(uuid "f751abfe-d5cb-442a-8166-225bf8062e2e")
+		)
+		(pin "14"
+			(uuid "78768b11-a2ec-47c9-aee6-6e2457de65f9")
+		)
+		(pin "PP23"
+			(uuid "27b42a6a-0ffa-43c0-84ed-ba3e52c68580")
+		)
+		(pin "PP6"
+			(uuid "0e7243d6-d365-43e2-b229-595803f4e589")
+		)
+		(pin "27"
+			(uuid "bfaff366-ff6c-44bd-a5f9-ff8c5a56aadd")
+		)
+		(pin "PP22"
+			(uuid "acc7cc91-e99b-4f8f-86ea-8a3afa1046ad")
+		)
+		(pin "12"
+			(uuid "12a5880e-c0ba-47e2-85c2-16f8e0e94535")
+		)
+		(pin "10"
+			(uuid "25581c3b-c1ea-42ee-911a-1e8b04dfdb61")
+		)
+		(pin "26"
+			(uuid "42008774-06e4-43af-bf5c-4fb88bdfdfdc")
+		)
+		(pin "33"
+			(uuid "f836f168-f199-4fb5-9493-b67589cc2f1a")
+		)
+		(pin "25"
+			(uuid "0673ec70-66c0-4998-b257-71587717facf")
+		)
+		(pin "5"
+			(uuid "50d75830-e4e2-4fc9-95ad-b6f99330f58e")
+		)
+		(pin "8"
+			(uuid "7b61370c-de3c-4ce2-b46b-0502789f63ce")
+		)
+		(pin "22"
+			(uuid "eaaba613-2626-4901-b909-c3a1511de88b")
+		)
+		(pin "4"
+			(uuid "cb306456-a35b-4454-9849-fd16f9cb608a")
+		)
+		(pin "38"
+			(uuid "a22b2900-9352-4086-91fa-26dd44177da0")
+		)
+		(pin "23"
+			(uuid "f9c7beb6-807d-4740-b159-3b8c29abb49f")
+		)
+		(pin "2"
+			(uuid "f94c8f91-b2c6-47ac-9476-fc9dbbd7cd20")
+		)
+		(pin "32"
+			(uuid "36ccbd42-05b0-421a-ae96-a879f1acd6fc")
+		)
+		(pin "40"
+			(uuid "a1a414d9-649f-4759-911c-1221a0e4e13d")
+		)
+		(pin "11"
+			(uuid "2782b15f-5668-49f9-8ffc-d3f4ddd12494")
+		)
+		(pin "PP1"
+			(uuid "c1d0bbcc-d76e-419a-9fd6-bbf57a608479")
+		)
+		(pin "18"
+			(uuid "4a738062-3d1e-4f90-91e7-d47d29acefd6")
+		)
+		(instances
+			(project "PiZeroHat"
+				(path "/70cca7f8-352d-48c5-8694-1c5fafafbd4a"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
