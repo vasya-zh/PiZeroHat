@@ -1,6 +1,7 @@
 # PiZeroHat
 
 KiCad component and example project for creating Raspberry Pi Zero Shields/Hats with USB and power lines directly (nor with extra cables), with a help of pogo pins (spring contacts).
+
 ![Screenshot PiZeroHat_02](assets/PiZeroHat_02.jpg)
 ![Screenshot PiZeroHat_03](assets/PiZeroHat_03.jpg)
 You can use it for creating Pi Zero based devices with onboard USB peripherals and/or advanced power circuits. For example USB-hubs and Ethernet drivers or other USB peripherals.
